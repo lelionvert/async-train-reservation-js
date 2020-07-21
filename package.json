@@ -1,26 +1,32 @@
 {
-  "name": "js-kata-starter",
+  "name": "async-train-reservation-js",
   "version": "1.0.0",
   "description": "Starter project for kata (Node, TypeScript, Jest)",
   "main": "index.js",
   "scripts": {
+    "start:api": "node src/api.js",
     "test": "jest --watch --config jest.config.json",
     "format": "prettier --write 'src/**/*.ts'"
   },
   "devDependencies": {
+    "@types/express": "^4.17.7",
     "@types/jest": "^25.1.1",
+    "@types/promise.allsettled": "^1.0.3",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
     "ts-jest": "^25.2.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.9.7"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "promise.allsettled": "^1.0.2"
+  },
   "prettier": {
     "printWidth": 120
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathieueveillard/js-kata-starter.git"
+    "url": "git+https://github.com/mathieueveillard/async-train-reservation-js.git"
   },
   "keywords": [
     "starter",
@@ -33,7 +39,7 @@
   "author": "Mathieu Eveillard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathieueveillard/js-kata-starter/issues"
+    "url": "https://github.com/mathieueveillard/async-train-reservation-js/issues"
   },
-  "homepage": "https://github.com/mathieueveillard/js-kata-starter#readme"
+  "homepage": "https://github.com/mathieueveillard/async-train-reservation-js#readme"
 }
